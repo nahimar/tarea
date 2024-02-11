@@ -47,31 +47,26 @@
     </header>
     
 <main>
-<h1>Iniciar sesion</h1>
-<form action="">
-<div class="formulario">
-    <label for="name">Nombre </label>
-    <input type="text" name="name" placeholder="Nombre">
-</div>
+<h1>Iniciar sesion</h1><form>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Iniciar Sesion</button>
+  </form>
+
+
 <br>
-<div class="formulario">
-    <label for="surname">Apellido</label>
-    <input type="text" name="surname" placeholder="Apellido">
-</div>
-<br>
-<div class="formulario">
-    <label for="mail">*Correo electronico</label>
-    <input type="email" name="mail" placeholder="*Correo electronico" required>
-</div>
-<br>
-<div class="formulario">
-    <label for="pass">Contraseña</label>
-    <input type="password" name="contraseña" placeholder="Contraseña">
-</div >
-<br>
-<div class="formulario2">
-    <input type="submit" value="iniciar sesion">
-</div>
+
 
 
 
