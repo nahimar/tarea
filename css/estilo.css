@@ -24,8 +24,6 @@
     .navbar {padding: 20px;
         margin: 10px;
         background-color: #e611e6
-        
-     
     }
     
     nav {
@@ -37,7 +35,7 @@
     .opciones {
         list-style: none;
     }
-    
+
     .opciones li a {
         text-decoration: none;
     }
@@ -46,36 +44,35 @@
         padding: 20px;
     }
     
-    
-    
     main section img {
         width: 400px;
     }
+
     main section {
         text-align: center;
     }
+    
     footer {
         background-color: #e611e6;
         color: black;
-    
-       
     }
+    
     h4 img { 
         width: 50px;
-        border-radius: 50%;
-       
+        border-radius: 50%;   
     }
+
     h4 {
         padding: 10px;
     display: inline-block;
-    
-    
     }
+
     .servicios {
         text-align: center;
         padding: 20px;
         font-size: 20px;
     }
+    
     .preguntas { 
         text-align: center;
         padding: 20px;
@@ -86,18 +83,21 @@
         line-height: 2;
         padding: 20px;
     }
+    
     .mb-3 { display: flex; 
         flex-direction: column;
         padding: 1rem;
         margin: 20px;
     }
+    
     .form-control{
         width: 300px;
-    
     }
+
     .form-label {
         font-size: 30px;
     }
+    
     .intro { 
        font-size: 30px;
        margin: 0%;
@@ -108,6 +108,7 @@
    flex-direction: row;
    justify-content: space-around;
 }
+
 .pie {  display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.5fr;
@@ -124,3 +125,36 @@
 padding: 1rem;
 }
   
+@media screen and ( max-width: 768px) {
+
+   .intro {
+    font-size: 20px;
+   }
+   .imagen img{
+    width: 300px;
+   }
+   .servicios { 
+   flex-direction: column;
+   justify-content: space-around;
+}
+.pie { 
+    grid-template-columns: 1fr ;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-auto-flow: column;
+    grid-template-areas:
+      "horario"
+      "contacto";
+  }
+}
+@media screen and ( max-width: 600px) {
+
+    .imagen img{
+     width: 200px;
+    }
+    header {
+        flex-direction: column;
+        grid-area: header;
+        justify-content: space-around;
+    }
+
+ }
