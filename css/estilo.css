@@ -10,7 +10,7 @@
     }
     header {
         background-color: #e611e6;
-        padding: 2rem;
+       padding: 2rem;
         display: flex;
         grid-area: header;
         justify-content: space-around;
@@ -108,4 +108,19 @@
    flex-direction: row;
    justify-content: space-around;
 }
-      
+.pie {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "horario contacto";
+  }
+  
+  .contacto { grid-area: contacto; }
+  
+  .horario { grid-area: horario;
+padding: 1rem;
+}
+  
