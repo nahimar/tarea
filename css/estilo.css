@@ -61,6 +61,11 @@
         width: 50px;
         border-radius: 50%;   
     }
+    
+ .carousel{ 
+    width: 700px;
+    
+ }
 
     h4 {
         padding: 10px;
@@ -100,7 +105,7 @@
     
     .intro { 
        font-size: 30px;
-       margin: 0%;
+       margin: 5%;
     }
 
 .servicios { 
@@ -124,6 +129,7 @@
   .horario { grid-area: horario;
 padding: 1rem;
 }
+
   
 @media screen and ( max-width: 768px) {
 
