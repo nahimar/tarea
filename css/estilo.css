@@ -19,6 +19,7 @@ header {
 
 header img {
     width: 200px;
+    margin: 50px;
 }
 
 header div {
@@ -73,7 +74,8 @@ h4 img {
     width: 700px;
 
 }
-.letras{
+
+.letras {
     color: black;
 }
 
@@ -99,7 +101,7 @@ h4 {
     padding: 20px;
 }
 
-.iniciar{
+.iniciar {
     display: flex;
     flex-direction: column;
     padding: 1rem;
