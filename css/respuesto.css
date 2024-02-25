@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5C2D9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #E5C2D9;
+    padding: 2rem;
+    display: flex;
+    grid-area: header;
+    justify-content: space-around;
+}
+
+header img {
+    width: 200px;
+    margin: 50px;
+}
+
+header div {
+    text-align: center;
+
+}
+
+.navbar {
+    padding: 20px;
+    margin: 10px;
+    background-color: #E5C2D9
+}
+
+nav {
+    padding: 20px;
+    margin: 10px;
+    background-color: #E5C2D9;
+}
+
+.opciones {
+    list-style: none;
+}
+
+.opciones li a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+main section img {
+    width: 400px;
+}
+
+main section {
+    text-align: center;
+}
+
+footer {
+    background-color: #E5C2D9;
+    color: black;
+}
+
+h4 img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.carousel {
+    width: 700px;
+
+}
+
+.letras {
+    color: black;
+}
+
+h4 {
+    padding: 10px;
+    display: inline-block;
+}
+
+.servicios {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.preguntas {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.nosotras {
+    line-height: 2;
+    padding: 20px;
+}
+
+.iniciar {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 20px;
+}
+
+.form-control {
+    width: 300px;
+}
+
+.form-label {
+    font-size: 30px;
+}
+
+.intro {
+    font-size: 30px;
+    margin: 5%;
+}
+
+.servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.pie {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "horario contacto";
+}
+
+.contacto {
+    grid-area: contacto;
+}
+
+.horario {
+    grid-area: horario;
+    padding: 1rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .intro {
+        font-size: 20px;
+    }
+
+    .imagen img {
+        width: 300px;
+    }
+
+    .servicios {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .pie {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
+    }
+
+    .carousel {
+        width: 500px;
+
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .imagen img {
+        width: 200px;
+    }
+
+    header {
+        flex-direction: column;
+        grid-area: header;
+        justify-content: space-around;
+    }
+
+    .carousel {
+        width: 300px;
+    }
+}

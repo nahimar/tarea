@@ -1,0 +1,305 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5C2D9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contenedorindex { 
+    header {
+        background-color: #E5C2D9;
+        padding: 2rem;
+        display: flex;
+        grid-area: header;
+        justify-content: space-around;
+        img {
+                width: 200px;
+                margin: 50px;
+        }
+        .navbar {
+            padding: 20px;
+            margin: 10px;
+            background-color: #E5C2D9
+        }
+    }
+    main{
+        .intro {
+            font-size: 30px;
+            margin: 5%;
+        }
+        .carousel {
+            width: 700px;
+        
+        }
+    }
+    footer {
+        background-color: #E5C2D9;
+        color: black;
+        h4 img {
+            width: 50px;
+            border-radius: 50%;
+        } 
+         h4 {
+            padding: 10px;
+            display: inline-block;
+        }
+        .pie {
+            display: grid;
+        
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr;
+            grid-auto-columns: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "horario contacto";
+            .contacto {
+                grid-area: contacto;
+            }
+            .horario {
+                grid-area: horario;
+                padding: 1rem;
+            }
+            
+        }
+      
+       
+    }
+}
+.contenedorservicios {
+    header {
+        background-color: #E5C2D9;
+        padding: 2rem;
+        display: flex;
+        grid-area: header;
+        justify-content: space-around;
+        img {
+                width: 200px;
+                margin: 50px;
+        }
+        .navbar {
+            padding: 20px;
+            margin: 10px;
+            background-color: #E5C2D9
+        }
+    }
+    main{
+    .servicio{
+        margin: 15px;
+        padding: 15px;
+    }
+    .servicios {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+   }
+   footer {
+    background-color: #E5C2D9;
+    color: black;
+    h4 img {
+        width: 50px;
+        border-radius: 50%;
+    } 
+     h4 {
+        padding: 10px;
+        display: inline-block;
+    }
+    .pie {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.5fr;
+        grid-auto-columns: 1fr;
+        gap: 0px 0px;
+        grid-auto-flow: row;
+        grid-template-areas:
+        "horario contacto";
+        .contacto {
+            grid-area: contacto;
+        }
+        .horario {
+            grid-area: horario;
+            padding: 1rem;
+        }
+        
+    }
+  
+   
+}
+  }
+  
+.contenedornosotras{
+    header {
+        background-color: #E5C2D9;
+        padding: 2rem;
+        display: flex;
+        grid-area: header;
+        justify-content: space-around;
+        img {
+                width: 200px;
+                margin: 50px;
+        }
+        .navbar {
+            padding: 20px;
+            margin: 10px;
+            background-color: #E5C2D9
+        }
+    }
+    main{
+        .nosotras {
+            line-height: 2;
+            padding: 20px;
+        }
+    }
+    footer {
+        background-color: #E5C2D9;
+        color: black;
+        h4 img {
+            width: 50px;
+            border-radius: 50%;
+        } 
+         h4 {
+            padding: 10px;
+            display: inline-block;
+        }
+        .pie {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr;
+            grid-auto-columns: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "horario contacto";
+            .contacto {
+                grid-area: contacto;
+            }
+            .horario {
+                grid-area: horario;
+                padding: 1rem;
+            }
+            
+        }
+}
+
+}
+.contenedorpreguntas{
+    header {
+        background-color: #E5C2D9;
+        padding: 2rem;
+        display: flex;
+        grid-area: header;
+        justify-content: space-around;
+        img {
+                width: 200px;
+                margin: 50px;
+        }
+        .navbar {
+            padding: 20px;
+            margin: 10px;
+            background-color: #E5C2D9
+        }
+    }
+    main{
+        .preguntas {
+            text-align: center;
+            padding: 20px;
+            font-size: 20px;
+        }
+    }
+    footer {
+        background-color: #E5C2D9;
+        color: black;
+        h4 img {
+            width: 50px;
+            border-radius: 50%;
+        } 
+         h4 {
+            padding: 10px;
+            display: inline-block;
+        }
+        .pie {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr;
+            grid-auto-columns: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "horario contacto";
+            .contacto {
+                grid-area: contacto;
+            }
+            .horario {
+                grid-area: horario;
+                padding: 1rem;
+            }
+            
+        }
+}
+}
+.contenedoriniciar{
+    header {
+        background-color: #E5C2D9;
+        padding: 2rem;
+        display: flex;
+        grid-area: header;
+        justify-content: space-around;
+        img {
+                width: 200px;
+                margin: 50px;
+        }
+        .navbar {
+            padding: 20px;
+            margin: 10px;
+            background-color: #E5C2D9
+        }
+        }
+    main{
+        .iniciar {
+            display: flex;
+            flex-direction: column;
+            padding: 1rem;
+            margin: 20px;
+            .form-control {
+            width: 300px;
+        }
+            .form-label {
+            font-size: 30px;
+        }
+        
+        }
+    }
+    footer {
+        background-color: #E5C2D9;
+        color: black;
+        h4 img {
+            width: 50px;
+            border-radius: 50%;
+        } 
+         h4 {
+            padding: 10px;
+            display: inline-block;
+        }
+        .pie {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 0.5fr;
+            grid-auto-columns: 1fr;
+            gap: 0px 0px;
+            grid-auto-flow: row;
+            grid-template-areas:
+            "horario contacto";
+            .contacto {
+                grid-area: contacto;
+            }
+            .horario {
+                grid-area: horario;
+                padding: 1rem;
+            }
+            
+        }
+}
+}
