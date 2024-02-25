@@ -86,6 +86,9 @@ body {
   flex-direction: row;
   justify-content: space-around;
 }
+.contenedorservicios main .card:hover {
+  transform: scale(1.1, 1.1);
+}
 .contenedorservicios footer {
   background-color: #E5C2D9;
   color: black;
@@ -271,66 +274,4 @@ body {
   padding: 1rem;
 }
 
-@media screen and (max-width: 768px) {
-  .contenedorindex main .intro {
-    font-size: 20px;
-  }
-  .contenedorindex main .carousel {
-    width: 500px;
-  }
-  .contenedorindex footer .pie {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.5fr 0.5fr;
-    grid-auto-flow: column;
-    grid-template-areas:
-        "horario"
-        "contacto";
-}
-.contenedorservicios main .servicios{
-  flex-direction: column;
-  justify-content: space-around;
-}
-.contenedorservicios footer .pie{
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr;
-  grid-auto-flow: column;
-  grid-template-areas:
-      "horario"
-      "contacto";
-}
-.contenedornosotras main .nosotras{
-  font-size: 20px;
-}
-.contenedornosotras footer .pie{
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr;
-  grid-auto-flow: column;
-  grid-template-areas:
-      "horario"
-      "contacto";
-}
-.contenedorpreguntas footer .pie{
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr;
-  grid-auto-flow: column;
-  grid-template-areas:
-      "horario"
-      "contacto";
-}
-.contenedoriniciar footer .pie {
-  grid-template-columns: 1fr;
-  grid-template-rows: 0.5fr 0.5fr;
-  grid-auto-flow: column;
-  grid-template-areas:
-      "horario"
-      "contacto";
-}
-}
-
-@media screen and (max-width: 600px) {
-  .contenedorindex main .carousel{
-    width: 300px;
-}
- 
-}
 /*# sourceMappingURL=estilo.css.map */

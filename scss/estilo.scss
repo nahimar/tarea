@@ -91,11 +91,17 @@ body {
         padding: 15px;
     }
     .servicios {
+        
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
-   }
+    .card:hover{
+        transform: scale(1.1, 1.1);
+    }
+
+    }
+   
    footer {
     background-color: #E5C2D9;
     color: black;
