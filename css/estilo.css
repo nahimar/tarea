@@ -34,7 +34,7 @@ body {
 }
 .contenedorindex footer {
   background-color: #E5C2D9;
-  color: black;
+  color: #000000;
 }
 .contenedorindex footer h4 img {
   width: 50px;
@@ -91,7 +91,7 @@ body {
 }
 .contenedorservicios footer {
   background-color: #E5C2D9;
-  color: black;
+  color: #000000;
 }
 .contenedorservicios footer h4 img {
   width: 50px;
@@ -140,7 +140,7 @@ body {
 }
 .contenedornosotras footer {
   background-color: #E5C2D9;
-  color: black;
+  color: #000000;
 }
 .contenedornosotras footer h4 img {
   width: 50px;
@@ -190,7 +190,7 @@ body {
 }
 .contenedorpreguntas footer {
   background-color: #E5C2D9;
-  color: black;
+  color: #000000;
 }
 .contenedorpreguntas footer h4 img {
   width: 50px;
@@ -247,7 +247,7 @@ body {
 }
 .contenedoriniciar footer {
   background-color: #E5C2D9;
-  color: black;
+  color: #000000;
 }
 .contenedoriniciar footer h4 img {
   width: 50px;
