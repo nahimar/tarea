@@ -1,39 +1,40 @@
 .contenedorservicios {
     header {
-        background-color: $fondoclaro;
+        background: linear-gradient( #d27fc4, #E5C2D9);
         padding: 2rem;
         display: flex;
         grid-area: header;
         justify-content: space-around;
         img {
-                width: 200px;
-                margin: 50px;
+                width: 170px;
         }
         .navbar {
-            padding: 20px;
-            margin: 10px;
-            background-color:$fondoclaro;
+            font-family: $letra;
+            font-size: larger;
         }
     }
     main{
     .servicio{
+        font-family: $letra;
         margin: 15px;
         padding: 15px;
     }
     .servicios {
-        
+        font-family: $letra;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
     }
     .card:hover{
         transform: scale(1.1, 1.1);
+        transition: 0.3s;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7)
     }
 
     }
    
    footer {
-    background-color: $fondoclaro;
+    background: linear-gradient( #E5C2D9, #d27fc4);
     color: $negro;
     h4 img {
         width: 50px;
@@ -52,6 +53,7 @@
         grid-auto-flow: row;
         grid-template-areas:
         "horario contacto";
+        font-family: $letra;
         .contacto {
             grid-area: contacto;
         }

@@ -1,28 +1,33 @@
 .contenedoriniciar{
     header {
-        background-color: $fondoclaro;
+        background: linear-gradient( #d27fc4, #E5C2D9);
         padding: 2rem;
         display: flex;
         grid-area: header;
         justify-content: space-around;
         img {
-                width: 200px;
-                margin: 50px;
+            width: 170px;
+            
         }
         .navbar {
-            padding: 20px;
-            margin: 10px;
-            background-color: $fondoclaro;
+            font-family: $letra;
+            font-size: larger;
         }
         }
     main{
         .iniciar {
+            font-family: $letra;
             display: flex;
             flex-direction: column;
             padding: 1rem;
             margin: 20px;
             .form-control {
-            width: 300px;
+              width: 300px;
+        }
+        .recuerdame {
+        display: flex;
+        flex-direction: row;
+        
         }
             .form-label {
             font-size: 30px;
@@ -31,7 +36,7 @@
         }
     }
     footer {
-        background-color: $fondoclaro;
+        background: linear-gradient( #E5C2D9, #d27fc4);
         color: $negro;
         h4 img {
             width: 50px;
@@ -50,6 +55,7 @@
             grid-auto-flow: row;
             grid-template-areas:
             "horario contacto";
+            font-family: $letra;
             .contacto {
                 grid-area: contacto;
             }

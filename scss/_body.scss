@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: $fondoclaro;
+  background-color: $fondoclaro;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    .logo { 
+     border-radius: 50%;
+    }
 }

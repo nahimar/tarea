@@ -1,28 +1,26 @@
 .contenedornosotras{
     header {
-        background-color: $fondoclaro;
+        background: linear-gradient( #d27fc4, #E5C2D9);
         padding: 2rem;
         display: flex;
         grid-area: header;
         justify-content: space-around;
         img {
-                width: 200px;
-                margin: 50px;
+                width: 170px;
         }
         .navbar {
-            padding: 20px;
-            margin: 10px;
-            background-color: $fondoclaro;
+      font-family: $letra;
+      font-size: larger;
         }
     }
     main{
         .nosotras {
-            line-height: 2;
+           font-family: $letra;
             padding: 20px;
         }
     }
     footer {
-        background-color: $fondoclaro;
+        background: linear-gradient( #E5C2D9, #d27fc4);
         color: $negro;
         h4 img {
             width: 50px;
@@ -41,6 +39,7 @@
             grid-auto-flow: row;
             grid-template-areas:
             "horario contacto";
+            font-family: cursive;
             .contacto {
                 grid-area: contacto;
             }
