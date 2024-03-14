@@ -1,0 +1,47 @@
+@media screen and (max-width: 768px) {
+
+    .intro {
+        font-size: 20px;
+    }
+  
+    .imagen img {
+        width: 300px;
+    }
+  
+    .servicios {
+        flex-direction: column;
+        justify-content: space-around;
+    }
+  
+    .pie {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
+    }
+  
+    .carousel {
+        width: 500px;
+  
+    }
+  
+  }
+  
+  @media screen and (max-width: 600px) {
+  
+    .imagen img {
+        width: 200px;
+    }
+  
+    header {
+        flex-direction: column;
+        grid-area: header;
+        justify-content: space-around;
+    }
+  
+    .carousel {
+        width: 300px;
+    }
+  }

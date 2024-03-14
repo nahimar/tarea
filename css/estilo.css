@@ -14,7 +14,7 @@ body .logo {
 
 .contenedorindex header {
   background: linear-gradient(#d27fc4, #E5C2D9);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   grid-area: header;
   justify-content: space-around;
@@ -66,7 +66,7 @@ body .logo {
 
 .contenedorservicios header {
   background: linear-gradient(#d27fc4, #E5C2D9);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   grid-area: header;
   justify-content: space-around;
@@ -126,7 +126,7 @@ body .logo {
 
 .contenedornosotras header {
   background: linear-gradient(#d27fc4, #E5C2D9);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   grid-area: header;
   justify-content: space-around;
@@ -174,7 +174,7 @@ body .logo {
 
 .contenedorpreguntas header {
   background: linear-gradient(#d27fc4, #E5C2D9);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   grid-area: header;
   justify-content: space-around;
@@ -190,6 +190,10 @@ body .logo {
   font-family: cursive;
   text-align: center;
   padding: 20px;
+  font-size: 20px;
+}
+.contenedorpreguntas main .lista {
+  font-family: cursive;
   font-size: 20px;
 }
 .contenedorpreguntas footer {
@@ -224,7 +228,7 @@ body .logo {
 
 .contenedoriniciar header {
   background: linear-gradient(#d27fc4, #E5C2D9);
-  padding: 2rem;
+  padding: 1.5rem;
   display: flex;
   grid-area: header;
   justify-content: space-around;
@@ -281,6 +285,41 @@ body .logo {
 .contenedoriniciar footer .pie .horario {
   grid-area: horario;
   padding: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    font-size: 20px;
+  }
+  .imagen img {
+    width: 300px;
+  }
+  .servicios {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .pie {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+    grid-auto-flow: column;
+    grid-template-areas: "horario" "contacto";
+  }
+  .carousel {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .imagen img {
+    width: 200px;
+  }
+  header {
+    flex-direction: column;
+    grid-area: header;
+    justify-content: space-around;
+  }
+  .carousel {
+    width: 300px;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
