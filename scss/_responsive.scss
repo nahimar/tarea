@@ -1,19 +1,14 @@
 @media screen and (max-width: 768px) {
 
-    .intro {
+    .contenedorindex main .intro {
         font-size: 20px;
     }
-  
-    .imagen img {
-        width: 300px;
+
+    .contenedorindex header img {
+        width: 100px;
     }
-  
-    .servicios {
-        flex-direction: column;
-        justify-content: space-around;
-    }
-  
-    .pie {
+
+    .contenedorindex footer .pie {
         grid-template-columns: 1fr;
         grid-template-rows: 0.5fr 0.5fr;
         grid-auto-flow: column;
@@ -21,27 +16,106 @@
             "horario"
             "contacto";
     }
-  
-    .carousel {
+
+    .contenedorindex main .carousel {
         width: 500px;
-  
-    }
-  
-  }
-  
-  @media screen and (max-width: 600px) {
-  
-    .imagen img {
-        width: 200px;
-    }
-  
-    header {
+     }
+     .contenedorservicios main .servicios {
         flex-direction: column;
-        grid-area: header;
         justify-content: space-around;
     }
-  
-    .carousel {
-        width: 300px;
+    .contenedorservicios main .card{
+      width: 300px;
+   }
+    .contenedorservicios footer .pie{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
     }
-  }
+    .contenedorservicios header img {
+        width: 100px;
+      }
+
+    .contenedornosotras header img {
+        width: 100px;
+      }
+    .contenedornosotras main .nosotras {   
+    font-size: 20px;
+    }
+    .contenedornosotras footer .pie{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
+    }
+    .contenedorpreguntas header img {
+        width: 100px;
+      }
+    .contenedorpreguntas main .preguntas {
+        font-size: 20px;
+      }
+    .contenedorpreguntas main .lista {
+        font-size: 20px;
+      }
+    .contenedorpreguntas footer .pie {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
+      }
+    .contenedoriniciar header img {
+        width: 100px;
+      }
+    .contenedoriniciar main .iniciar .form-control {
+        width: 200px;
+      }
+    .contenedoriniciar main .iniciar .form-label {
+        font-size: 20px;
+     }
+     .contenedoriniciar footer .pie {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 0.5fr;
+        grid-auto-flow: column;
+        grid-template-areas:
+            "horario"
+            "contacto";
+      }
+}
+
+@media screen and (max-width: 600px) {
+    .contenedorindex main .intro {
+        font-size: 15px;
+    }
+    .contenedorindex main .carousel {
+        width: 300px;
+     }
+     .contenedorservicios main .card{
+        width: 250px;
+     }
+    .contenedorservicios header img {
+        width: 100px;
+      }
+    .contenedornosotras header img {
+        width: 100px;
+      }
+    .contenedornosotras main .nosotras {   
+    font-size: 15px;
+    }
+    .contenedorpreguntas main .preguntas {
+        font-size: 15px;
+      }
+    .contenedorpreguntas main .lista {
+        font-size: 15px;
+      }
+    .contenedoriniciar main .iniciar .form-label {
+        font-size: 15px;
+     }
+  
+}
